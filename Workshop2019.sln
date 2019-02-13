@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workshop2019.EmployeeApi", "Workshop2019.EmployeeApi\Workshop2019.EmployeeApi.csproj", "{A9BD995E-100A-499F-807E-9DB86D2FBC84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hosting", "hosting", "{09FBDC06-6B56-442C-9D26-88A5787A9C52}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9BD995E-100A-499F-807E-9DB86D2FBC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BD995E-100A-499F-807E-9DB86D2FBC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BD995E-100A-499F-807E-9DB86D2FBC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BD995E-100A-499F-807E-9DB86D2FBC84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDD9F074-A282-4BBF-909F-E3DA09D43935}
+	EndGlobalSection
+EndGlobal
